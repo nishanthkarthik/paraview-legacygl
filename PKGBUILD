@@ -19,7 +19,7 @@ pkgdesc="Parallel Visualization application using VTK (${_mpi} version)"
 arch=('x86_64')
 url="https://www.paraview.org"
 license=('custom')
-depends=('qt5-tools' 'qt5-x11extras' 'ospray' 'ffmpeg' 'openmpi'
+depends=('qt4' 'ospray' 'ffmpeg' 'openmpi'
          'cgns' 'python-pygments' 'protobuf' 'pugixml'
          'python-matplotlib' 'python-numpy' 'python-mpi4py'
          'python-six' 'python-constantly' 'python-twisted'
